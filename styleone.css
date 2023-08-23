@@ -1,0 +1,156 @@
+*{
+    background-color: rgb(209, 208, 208);
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: rgb(209, 208, 208);
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.logo{
+    height: 25px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.search{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.searchinput{
+    background-color: white;
+    padding: 4px;
+    width: 500px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.searchicon{
+    padding: 4px;
+    width: 35px;
+    border: 1px solid gray;
+    padding-right: 25px;
+    cursor: pointer;
+}
+.headicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+
+}
+.sidebar{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+}
+.sidebarsec{
+    
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 100%;
+margin: 5px;
+cursor: pointer;
+}
+.sidebarsec i{
+    background-color: rgb(209, 208, 208);;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.sidebarsec h1{
+  
+font-size: 15px;
+font-weight: 500px;
+}
+.sidebardiv{
+    height: 1px;
+    border-top: 2px solid rgba(197, 195, 195);
+    width: 100%x;
+    margin: 10px;
+}
+.videobar{
+    background-color: rgb(209, 208, 208);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    flex: 1;
+    margin-left: 250px;
+    width: 100%;
+
+}
+.videos{
+    background-color: 197, 195, 195e;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width:270px ;
+    padding: 20px;
+    cursor: pointer;
+}
+.channel{
+    border-radius: 200px;
+    height: 30px;
+    margin-top: 12px;
+    
+    width: 260;
+
+}
+.videodetails{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.details{
+    font-size: 20px;
+    font-weight: 400px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+.channelname{
+    font-size: 14px;
+    font-weight: 10px;
+    color: rgb(131, 131, 132);
+    padding-left: 8px;
+}
+.views{
+    font-size: 13px;
+    padding-left: 7px;
+
+}
+
+
